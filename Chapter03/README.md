@@ -5,6 +5,10 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bIiGyv_YiTdq97a7KrowCceOrZlG2hXL)
 
+| Chapter | Title                                           | Description                                                                                                                                                                                                                                                                         |
+|---------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3       | Diving into the Architecture                     | Chapter 3 provides a comprehensive understanding of the transformer model, which is the backbone of OpenAI's Whisper. Readers will explore the architectural intricacies of Whisper, including the encoder-decoder mechanics, and learn how the transformer model drives effective speech recognition.<br><br>Notebooks:<br>- [LOAIW_ch03_working_with_audio_data_via_Hugging_Face.ipynb](/Chapter03/LOAIW_ch03_working_with_audio_data_via_Hugging_Face.ipynb) |
+
 In this notebook, we'll explore the essentials of working with audio data in Python, leveraging the power of Hugging Face's `datasets` library and OpenAI's Whisper model. Our journey will take us through setting up a Hugging Face account, loading and exploring an audio dataset, preprocessing that dataset to meet the requirements of machine learning models, and finally, transcribing audio to text using the state-of-the-art Whisper model.
 
 Audio data processing is a pivotal step in numerous machine learning applications, from developing voice-activated assistants to creating systems capable of understanding and transcribing spoken language in real-time. By the end of this notebook, you'll have a solid foundation in handling audio data, which you can apply to a wide range of natural language processing tasks.
