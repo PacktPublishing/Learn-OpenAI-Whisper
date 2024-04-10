@@ -3,6 +3,10 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Lj895IOyp0OL4RJMk3m6aPZ1w_NcPyp2)
 
+| Chapter | Title                                           | Description                                                                                                                                                                                                                                                                         |
+|---------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2       | Underlying Architecture                          | This chapter delves into the nuts and bolts of Whisper's ASR system. It explains the system's critical components and functions, shedding light on how the technology interprets and processes human speech. It also explores best practices for performance optimization.<br><br>Notebooks:<br>- [LOAIW_ch02_exploring_audio_data_workflows.ipynb](/Chapter02/LOAIW_ch02_exploring_audio_data_workflows.ipynb)                |
+
 This notebook is designed to serve as a comprehensive guide for handling and analyzing audio data, with practical examples and explanations tailored to the context of Whisper and automatic speech recognition (ASR).
 
 **Understanding audio signals**
