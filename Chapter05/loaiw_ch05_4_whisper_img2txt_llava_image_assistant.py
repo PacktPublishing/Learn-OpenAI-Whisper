@@ -320,4 +320,4 @@ iface = gr.Interface(
 )
 
 # Launch the interface
-iface.launch(debug=True)
+iface.launch(debug=False)
