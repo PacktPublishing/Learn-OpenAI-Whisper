@@ -6,6 +6,35 @@ This repository contains the code, examples, and resources for the book "Learn O
 ## About the Book
 
 "Learn OpenAI Whisper" is a comprehensive guide that aims to transform your understanding of generative AI through robust and accurate speech processing solutions. The book delves into the profound applications and intricate architecture of OpenAI's Whisper, making it an indispensable resource for intermediate to advanced readers.
+Dive into the transformative world of ASR with Learn OpenAI Whisper. This guide will take you beyond the basics, offering insights into Whisper's sophisticated architecture and practical use cases. 
+* Integrate Whisper into voice assistants and chatbots
+* Use Whisper for efficient, accurate transcription services
+* Understand Whisper's transformer model structure and nuances
+* Fine-tune Whisper for specific language requirements globally
+* Implement Whisper in real-time translation scenarios
+* Explore voice synthesis capabilities using Whisper's robust tech
+* Execute voice diarization with Whisper and NVIDIA's NeMo
+* Navigate ethical considerations in advanced voice technology
+
+### Software and Hardware List
+
+| Software/hardware requirements | Operating system requirements           |
+|---------------------------------------|-----------------------------------------|
+| Google Collaboratory (Colab)          |                                         |
+| Google Drive                          |                                         |
+| YouTube                               |                                         |
+| RSS                                   |                                         |
+| GitHub                                |                                         |
+| Python                                |                                         |
+| Hugging Face                          |                                         |
+| Gradio                                |                                         |
+| Foundational models:                  |                                         |
+| - Google's gTTS                       |                                         |
+| - StableLM Zephyr 3B – GGUF           |                                         |
+| - LLaVA                               | Web browser on Windows, macOS, or Linux |
+| Intel's OpenVINO                      |                                         |
+| NVIDIA’s NeMo                         |                                         |
+| Microphone and speakers               |                                         |
 
 ## About the Author
 
@@ -34,9 +63,7 @@ To get started with the code examples, navigate to the desired chapter directory
 - [OpenAI Whisper Documentation](https://openai.com/blog/whisper/)
 - [Packt Publishing](https://www.packtpub.com/)
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
