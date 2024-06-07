@@ -36,6 +36,21 @@ Dive into the transformative world of ASR with Learn OpenAI Whisper. This guide 
 | NVIDIA’s NeMo                         |                                         |
 | Microphone and speakers               |                                         |
 
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+The code will look like the following:
+A block of code is set as follows:
+```
+from datasets import load_dataset, DatasetDict
+common_voice = DatasetDict()
+common_voice["train"] = load_dataset("mozilla-foundation/common_
+voice_11_0", "hi", split="train+validation", use_auth_token=True)
+common_voice["test"] = load_dataset("mozilla-foundation/common_
+voice_11_0", "hi", split="test", use_auth_token=True)
+print(common_voice)
+```
+
 ## About the Author
 
 Josué R. Batista is a Digital Transformation Strategist at Harvard Business School, supporting the industrialization of generative AI and large language models (LLMs), promoting innovative learning experiences for a global audience. With an MBA, a Masters of Science in Information Systems Management, and extensive experience in AI/ML transformation, Josué is well-equipped to guide readers through the complex world of OpenAI's Whisper.
@@ -52,12 +67,16 @@ Josué R. Batista is a Digital Transformation Strategist at Harvard Business Sch
 | 7       | Exploring Advanced Voice Capabilities            | Chapter 7 explores the advanced voice capabilities of OpenAI's Whisper, focusing on techniques that enhance its performance, such as quantization, and its potential for speaker diarization and real-time speech recognition.<br><br>Notebooks:<br>- [LOAIW_ch07_1_quantizing_Whisper_with_CTranslate2.ipynb](/Chapter07/LOAIW_ch07_1_quantizing_Whisper_with_CTranslate2.ipynb)<br>- [LOAIW_ch07_2_Quantizing_Distil_Whisper_with_OpenVINO.ipynb](/Chapter07/LOAIW_ch07_2_Quantizing_Distil_Whisper_with_OpenVINO.ipynb)<br>- [LOAIW_ch07_3_Building_real-time_ASR_with_HF_Whisper.ipynb](/Chapter07/LOAIW_ch07_3_Building_real-time_ASR_with_HF_Whisper.ipynb) |                                                           |
 | 8       | Diarizing speech with WhisperX and NVIDIA's NeMo            | In this chapter, readers will explore advanced techniques for enhancing OpenAI Whisper's capabilities, focusing on speaker diarization using WhisperX and NVIDIA's NeMo framework. They will learn how to integrate these tools to accurately identify and attribute speech segments to different speakers within an audio recording.<br><br>Notebooks:<br>- [LOAIW_ch08_diarizing_speech_with_WhisperX_and_NVIDIA_NeMo.ipynb](/Chapter08/LOAIW_ch08_diarizing_speech_with_WhisperX_and_NVIDIA_NeMo.ipynb) |                                                           |
 | 9       | Harnessing Whisper for personalized voice synthesis           | This chapter explores how to harness OpenAI's Whisper for personalized voice synthesis (PVS), allowing readers to create customized generative AI models that capture the unique characteristics of a target voice. It covers the fundamentals of text-to-speech in voice synthesis, converting audio files to the LJSpeech format, fine-tuning PVS models using the DLAS toolkit, and synthesizing realistic speech using the fine-tuned PVS model.<br><br>Notebooks:<br>- [LOAIW_ch09_1_Synthesizing_voices_with_tortoise_tts_fast.ipynb](/Chapter09/LOAIW_ch09_1_Synthesizing_voices_with_tortoise_tts_fast.ipynb)<br>- [LOAIW_ch09_2_Processing_audio_to_LJ_format_with_Whisper_OZEN.ipynb](/Chapter09/LOAIW_ch09_2_Processing_audio_to_LJ_format_with_Whisper_OZEN.ipynb)<br>- [LOAIW_ch09_3_Fine-tuning_PVS_models_with_DLAS.ipynb](/Chapter09/LOAIW_ch09_3_Fine-tuning_PVS_models_with_DLAS.ipynb)<br>- [LOAIW_ch09_4_Synthesizing_speech_using_fine-tuned_PVS_models.ipynb](/Chapter09/LOAIW_ch09_4_Synthesizing_speech_using_fine-tuned_PVS_models.ipynb)                                                         |
-| 10       | Shaping the Future with Whisper                  | The final chapter provides a forward-looking perspective on the evolving field of Automatic Speech Recognition (ASR) and Whisper's role. It delves into upcoming trends, anticipated features, and the general direction that voice technologies are taking.                               |
+| 10       | Shaping the Future with Whisper                  | The final chapter provides a forward-looking perspective on the evolving field of Automatic Speech Recognition (ASR) and Whisper's role. It delves into upcoming trends, anticipated features, and the general direction that voice technologies are taking. |
 
 ## Getting Started
 
 To get started with the code examples, navigate to the desired chapter directory and run the Jupyter notebooks
 
+### Related products
+* OpenAI API Cookbook [[Packt]](https://www.packtpub.com/product/openai-api-cookbook/9781805121350) [[Amazon]](https://www.amazon.com/dp/1805121359)
+
+* Building Data-Driven Applications with LlamaIndex [[Packt]](https://www.packtpub.com/product/building-data-driven-applications-with-llamaindex/9781835089507) [[Amazon]](https://www.amazon.com/Building-Data-Driven-Applications-LlamaIndex-retrieval-augmented/dp/183508950X?link_from_packtlink=yes)
 ## Resources
 
 - [OpenAI Whisper Documentation](https://openai.com/blog/whisper/)
