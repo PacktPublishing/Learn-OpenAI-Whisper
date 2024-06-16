@@ -73,7 +73,7 @@ Josué R. Batista is a Digital Transformation Strategist at Harvard Business Sch
 
 To get started with the code examples, navigate to the desired chapter directory and run the Jupyter notebooks
 
-### Related products
+## Related products
 * OpenAI API Cookbook [[Packt]](https://www.packtpub.com/product/openai-api-cookbook/9781805121350) [[Amazon]](https://www.amazon.com/dp/1805121359)
 
 * Building Data-Driven Applications with LlamaIndex [[Packt]](https://www.packtpub.com/product/building-data-driven-applications-with-llamaindex/9781835089507) [[Amazon]](https://www.amazon.com/Building-Data-Driven-Applications-LlamaIndex-retrieval-augmented/dp/183508950X?link_from_packtlink=yes)
